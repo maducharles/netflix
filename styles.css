@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,9 +10,14 @@
 section {
     width: 100%;
     height: calc(100vh + 10vh);
-    background-image: linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.2),rgba(0,0,0,0.9)), url(https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/e630dd10-1a25-4ce7-84fc-81fa5897e400/NG-en-20230724-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-image:   linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0.2),rgba(0,0,0,0.9)), url(https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/e630dd10-1a25-4ce7-84fc-81fa5897e400/NG-en-20230724-popsignuptwoweeks-perspective_alpha_website_large.jpg);
 background-size: cover;
 background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
 
 #logo {
@@ -24,5 +31,38 @@ background-position: center;
     align-items: center;
     justify-content: space-between;
     margin:  0 auto ;
-    
+    position: absolute;
+    top:0;
+}
+
+h1 {
+   color: white;
+   font-size: 3rem;
+   font-weight: 900;
+}
+
+.header-article {
+ text-align: center;
+ margin-top: 10rem;
+}
+
+p,h2 {
+    color: white;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.input-div {
+    /* background-color: aqua; */
+display: flex;
+margin: 2rem auto;
+flex-wrap: wrap;
+width: 30rem;
+}
+
+#email {
+    width: 20rem;
+    padding: 1rem;
+    color: white;
+    background: rgba(0,0,0,0.5);
 }
