@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+   
+}
+.btn {
+   display: block;
+   padding: 0.3rem 0.6rem;
+   
+}
+
+#logo {
+    width: 8em;
+}
+
+.img-div {
+    padding-left: 10em;
+}
+
+ .btn-div {
+    padding-right: 10em;
+}
