@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9rem;
+    
+  }
+  
+  #email, #password {
+   width: 100%;
+   height: 3rem;
+  /* margin-top: 0.9rem;*/
+   border-radius: 4px;
+   border: 1px solid black;
+   outline: none;
+   padding-left: 0.9rem;
+  }  
+  
+  .form {
+    padding: 0 2rem;
+    overflow: hidden;
+  
+  
+  }
+  
+  .center_div {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .grid {
+    display: flex;
+    gap: 2em;
+    margin-top: 1.6rem;
+  padding-bottom: 1.5rem;
+  }
+  
+  footer {
+    background-color: whitesmoke;
+    color: grey;
+    margin-top: 10rem;
+  }
+  .footer {
+    padding-top: 1.9rem;
+  }
+  
+  footer section {
+    background-color: whitesmoke;
+    color: grey;
+    padding: 0 1rem;
+    
+  }
+  
+  .grid div {
+    line-height: 1.8rem;
+    font-size: 0.9rem;
+  }
+  
+  #offer {
+    vertical-align: middle;
+  margin-right: 0.5em;
+  }
+  
+  .intro {
+    /*margin-top: 1rem;*/
+  }
+  
+  button {
+    margin-top: 1rem;
+  }
+  
+  h1 {
+    margin-top: 0.6rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  
+  .alert {
+    min-height: 14px;
+  }
+  
+   #email::placeholder {
+    font-size: 0.9rem;
+    transition: 0.3s;
+  
+  }
+  
+  #email:focus::placeholder {
+    transform: translateY(-12px);
+    color: red;
+    font-size: 0.8rem;
+  }
+  
+  
+  
+  
+   #password::placeholder {
+    font-size: 0.9rem;
+    transition: 0.3s;
+  
+  } 
+  
+   #password:focus::placeholder  {
+    transform: translateY(-12px);
+    color: red;
+    font-size: 0.7rem;
+  }
+  
+  button {
+    width: 100%;
+    height: 3.4rem;
+    background-color: rgb(232, 20, 20);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+  }
+  
+  .main {
+    margin-top: 1rem;
+  }
+  
+  .first_p {
+    margin-top: 1rem;
+  }
+  
+  .card {
+    margin-top: 2rem;
+  /*  display: none;*/
+    transform: translateX(400px);
+    transition: 500ms ease-in-out;
+    transition-delay: 200ms;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+   /* animation: fade 1s ease-in;*/
+  
+  }
+  
+  .text {
+    padding-right: 1.8rem;
+    
+  }
+  .line {
+    height: 0.1008rem;
+    background-color: whitesmoke;
+  }
+  
+  .child{
+    font-size: 0.7em;
+  }
+  #logo {
+    width: 4rem;
+  }
+  
+  .relative {
+    font-size: 3rem;
+    font-weight: 30;
+  }
+  
+  .text-div {
+    padding-right: 1.8rem;
+    line-height: 2.8rem;
+  }
+  
+  .card.active {
+    /*display: block;*/
+    transform: translateX(0px);
+    opacity: 1;
+    position: relative;
+    
+  
+    
+  }
+  
+  .head a{
+    text-decoration: none;
+    color: black;
+  }
+  .overflow  {
+    
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .alert1 {
+    height: 1rem;
+  }
+  /* @keyframes fade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(.75);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+      
+    }
+  } */
+  
+  

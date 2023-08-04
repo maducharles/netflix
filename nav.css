@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+   body {
+    background-color: black;
+  } 
+  
+  
+  #logo {
+   width: 4rem;
+  }
+  
+  .sec-container {
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    background-color: black;
+    color: white;
+  padding-top: 2rem;
+  }
+  
+  .sign_in {
+    padding: 0 1.3rem;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+  
+  nav {
+    padding: 1rem 1rem 0;
+  }
+  
+  .sec-container #password {
+    width: 100%;
+    height: 3rem;
+    padding-left: 1.2rem;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    border-radius: 4px;
+    background-color: rgb(33,33,33);
+    border: none;
+    outline: none;
+    color: whitesmoke;
+  }
+  
+  
+   .sec-container #email {
+    width: 100%;
+    height: 3rem;
+    padding-left: 1.2rem;
+    font-size: 1rem;
+    margin-top: 1.7rem;
+    border-radius: 4px;
+      background-color: rgb(33,33,33);
+    border: none;
+    outline: none;
+    color: whitesmoke;
+  }
+  
+   .sec-container  button {
+     width: 100%;
+     margin-top: 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 3rem;
+     border-radius: 6px;
+     border: none;
+     outline: none;
+     background-color:  rgb(232, 20, 20);
+     font-size: 1rem;
+     color: white;
+     font-weight: 700;
+   }
+   
+   .flex{
+     display: flex;
+     justify-content: space-between;
+    margin-top: 1rem;
+   }
+   
+  p, label{
+     color: grey;
+   }
+   
+   .inline {
+     color: white;
+   }
+   
+   #remember:focus {
+     background-color: grey;
+     color: white;
+     
+   }
+   
+   .learn_more {
+  margin-top: 2.2rem;
+   }
+   
+  .captcha{
+    font-size: 0.9rem;
+    padding-top: 1.2rem;
+  }
+  
+  .captcha span {
+    font-size: 0.8rem;
+    color: royalblue;
+  }
+  
+  .line1 {
+    width: 100%;
+    height: 0.01em;
+    background-color: dimgrey;
+    margin-top: 9rem;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  #contacts {
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+  
+  .grid {
+    display: flex;
+    gap: 5em;
+    margin-top: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .grid p {
+    font-size: 0.8rem;
+    line-height: 1.9rem;
+  }
+  
+   #email::placeholder {
+    font-size: 0.9rem;
+    transition: 0.3s;
+  
+  }
+  
+  #email:focus::placeholder {
+    transform: translateY(-12px);
+    color: red;
+    font-size: 0.8rem;
+  }
+  
+  
+  
+  
+   #password::placeholder {
+    font-size: 0.9rem;
+    transition: 0.3s;
+  
+  } 
+  
+   #password:focus::placeholder  {
+    transform: translateY(-12px);
+    color: red;
+    font-size: 0.7rem;
+  }
+  
+  .inline a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media (min-width: 900px) {
+    #ground {
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/e630dd10-1a25-4ce7-84fc-81fa5897e400/NG-en-20230724-popsignuptwoweeks-perspective_alpha_website_large.jpg) ;
+      background-size: cover;
+      
+    }
+    
+    body {
+      background-color: white ;
+    }
+    .sign_in {
+      background: rgba(0,0,0,0.8)
+    }
+    
+    footer {
+      background-color: rgba(0,0,0,0.7);
+    }
+    
+    #logo {
+   width: 9rem;
+  }
+  
+  .sec-container {
+    background-color: transparent;
+  }
+    
+    
+   .sign_in {
+     width: 50%;
+     margin-top: 2rem;
+     background: rgba(0,0,0,0.8);
+     min-height: 40rem;
+     padding: 4rem 4rem 6rem;
+     
+   }
+   
+   footer p {
+     color: lightslategrey;
+   }
+  
+  .line1 {
+    background-color: transparent ;
+  }
+  
+  footer {
+  margin-top: 47rem;
+  }
+  
+  
+  
+  }
