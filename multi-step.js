@@ -46,8 +46,6 @@ showCurrentstep();
 
  })
   
-  
-
 
 
 //if (cardvalidation) {
